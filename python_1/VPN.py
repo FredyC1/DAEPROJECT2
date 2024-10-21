@@ -49,7 +49,7 @@ def handle_client(client_socket):
         # Close the connections
         client_socket.close()
         server_socket.close()
-
+# runs the proxy
 def start_proxy():
     # Create a socket object
     proxy = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -78,3 +78,7 @@ def start_proxy():
 
 if __name__ == "__main__":
     start_proxy()
+
+# Reqirments 
+Server = True
+Server = ['proxy', 'VPN', 'Socket']
